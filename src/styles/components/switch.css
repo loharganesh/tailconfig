@@ -1,0 +1,25 @@
+.switch {
+	@apply relative inline-block w-[40px] h-[25px];
+}
+
+.switch-input {
+	@apply w-0 h-0 opacity-0 duration-200;
+}
+
+.slider {
+	@apply absolute cursor-pointer top-0 right-0 bottom-0 left-0 bg-slate-100 rounded-full;
+}
+
+.slider::before {
+	content: '';
+	@apply absolute w-[50%] h-[80%] shadow-lg bg-primary rounded-full duration-200
+    left-[5%] bottom-[10%];
+}
+
+.switch-input:checked + .slider {
+	@apply bg-accent;
+}
+
+.switch-input:checked + .slider::before {
+	@apply translate-x-[80%];
+}

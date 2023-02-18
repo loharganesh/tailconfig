@@ -1,0 +1,24 @@
+.radio {
+	@apply block relative cursor-pointer select-none p-sm;
+}
+
+.radio input {
+	@apply opacity-0 cursor-pointer h-0 w-0 hidden;
+}
+
+.thumb {
+	@apply absolute top-0 left-0 w-[25px] h-[25px] bg-secondary rounded-full border;
+}
+
+.radio .thumb::after {
+	content: '';
+	@apply hidden left-[30%] top-[30%] w-[40%] h-[40%] bg-white absolute rounded-full;
+}
+
+.radio input:checked + .thumb {
+	@apply bg-accent;
+}
+
+.radio input:checked + .thumb::after {
+	@apply block;
+}

@@ -1,0 +1,21 @@
+/* Import this file to your App.js or index.js */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Typography */
+@import './typography.css';
+
+/* Components */
+@import './components/button.css';
+@import './components/input.css';
+@import './components/checkbox.css';
+@import './components/radio.css';
+@import './components/switch.css';
+@import './components/card.css';
+@import './components/avatar.css';
+
+/* Navigation */
+@import './components/tab.css';
+@import './components/sidenav.css';

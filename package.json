@@ -1,0 +1,25 @@
+{
+	"name": "tailconfig",
+	"version": "1.7.0",
+	"description": "Tailconfig is a npm package to generate a tailwind config file with css for base components in well structured direcotry",
+	"main": "index.js",
+	"bin": {
+		"create-styles": "index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"tailwindcss",
+		"config",
+		"tailwindconfig",
+		"css",
+		"tailwindcomponents"
+	],
+	"author": "Ganesh Lohar",
+	"license": "ISC",
+	"dependencies": {
+		"ejs": "^3.1.8",
+		"inquirer": "^8.2.4"
+	}
+}
