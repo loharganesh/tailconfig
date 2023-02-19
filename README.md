@@ -5,13 +5,13 @@ Tailconfig generates css files using tailwind for your project in a well structu
 ## Installation
 
 ```
-npm install tailconfig
+npm install tailconfig -g -D
 ```
 
 ## Usage
 
 ```
-npx tailconfig create-styles
+create-styles
 ```
 
 This will create the following directory structure in your **src** folder
